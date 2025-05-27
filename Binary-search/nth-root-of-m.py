@@ -1,4 +1,5 @@
 class Solution:
+	# n=3,m=27, 3root of 27 =3*3*3 if  not find return -1
 	def nthRoot(self, n: int, m: int) -> int:
 		low=1
 		high=m
