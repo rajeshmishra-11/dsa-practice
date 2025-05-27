@@ -6,7 +6,7 @@ class Solution:
             
         return time_taken
 
-    #how many bananas they want to eat in one hour to eat all the banana in a k times or less then the time limit
+    #how many minimum bananas they want to eat in one hour to eat all the banana in a k times or less then the time limit
     
     def kokoEat(self,arr,k):
         high=max(arr)
